@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\GameSchool\GameSchoolLibraries.cs" />
+     <Compile Include="Assets\UItest.cs" />
      <Compile Include="Assets\scripts\CrateKill.cs" />
      <Compile Include="Assets\scripts\CrateSpawn.cs" />
+     <Compile Include="Assets\scripts\Lives.cs" />
      <Compile Include="Assets\scripts\RightSpring.cs" />
      <Compile Include="Assets\scripts\UpSpring.cs" />
      <Compile Include="Assets\scripts\WinBasket.cs" />
