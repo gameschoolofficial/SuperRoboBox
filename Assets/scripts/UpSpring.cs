@@ -23,7 +23,7 @@ public class UpSpring : MonoBehaviour {
 		if(thingIHit.tag == "Crate")
 		{
 			thingIHit.gameObject.stopAllForces2D();
-			thingIHit.gameObject.addForce2D(Vector2.up*150);
+			thingIHit.gameObject.addForce2D(Vector2.up*2000);
 		}
 
 	}

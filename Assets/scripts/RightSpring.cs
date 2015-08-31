@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using GameSchoolLibraries;
+
 public class RightSpring : MonoBehaviour {
-	public GameObject jumpsprite;
-	public GameObject pinkcube;
+	public GameObject jumpSprite;
+	public GameObject pinkCube;
+	
 	
 	// Use this for initialization
 	void Start () {
@@ -15,11 +17,14 @@ public class RightSpring : MonoBehaviour {
 		
 		
 	}
+	
 	void OnTriggerEnter2D(Collider2D thingIHit)
 	{
-		if (thingIHit.tag == "Crate") 
+		if(thingIHit.tag == "Crate")
 		{
-			thingIHit.gameObject.addForce2D (Vector2.right * 150);
+			thingIHit.gameObject.stopAllForces2D();
+			thingIHit.gameObject.addForce2D(Vector2.right*2000);
 		}
+		
 	}
 }
