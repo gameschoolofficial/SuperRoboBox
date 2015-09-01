@@ -18,13 +18,5 @@ public class GravityButton : MonoBehaviour {
 	
 	}
 
-	void OnTriggerEnter2D(Collider2D col)
-	{
-		beamSystem.isEnabled(true);
-	}
 
-	void OnTriggerExit2D(Collider2D col)
-	{
-		beamSystem.isEnabled(false);
-	}
 }
