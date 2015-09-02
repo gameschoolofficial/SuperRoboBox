@@ -18,5 +18,10 @@ public class GravityButton : MonoBehaviour {
 	
 	}
 
+	//when player enters this box, turn on beam system
+
+
+	//when player leaves this box, turn off beam system
+
 
 }

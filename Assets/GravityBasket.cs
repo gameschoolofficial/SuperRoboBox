@@ -18,6 +18,8 @@ public class GravityBasket : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col)
 	{
 		pinkCube.stopAllForces2D();
+		//turn off gravity for object coming in
+		//give upward force for  object coming in. 
 	
 	}
 }
